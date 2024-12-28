@@ -1,4 +1,5 @@
 "use client";
+import { useState } from "react";
 
 const slides = [
   {
@@ -28,7 +29,14 @@ const slides = [
 ];
 
 const Slider = () => {
-  return <div className="relative">Slider</div>;
+  const [current, setCurrrent] = useState(0);
+
+  return (
+    <div className="h-[calc(100vh-80px)] overflow-hidden">
+      <div className="w-max h-full"></div>
+      Slider
+    </div>
+  );
 };
 
 export default Slider;

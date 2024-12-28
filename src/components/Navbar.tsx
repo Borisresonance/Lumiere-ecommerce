@@ -9,11 +9,12 @@ const Navbar = () => {
     //main parent for the menu, position should be relative
     <div className="h-20 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 relative">
       {/* MOBILE */}
-      <div className="h-full flex items-center justify-between md:hidden">
-        <Link href="/">
-          <Image src="/logo.png" alt="Logo" width={300} height={65} />
-        </Link>
+      <div className="h-full flex items-center justify-around md:hidden">
         <Menu />
+        <Link href="/">
+          <Image src="/logo.png" alt="Logo" width={200} height={42} />
+        </Link>
+        <NavIcons />
       </div>
 
       {/* md screen */}
