@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+const { fontFamily } = require("tailwindcss/defaultTheme");
 
 const config: Config = {
   content: [
@@ -14,7 +15,11 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        salmon:"#F35C74",
+        salmon: "#F35C74",
+      },
+      fontFamily: {
+        rouge: ["Rouge Script", "cursive", ...fontFamily.sans],
+        merriweather: ["Merriweather", "serif", ...fontFamily.serif],
       },
     },
   },
