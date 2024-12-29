@@ -2,7 +2,7 @@
 import Image from "next/image";
 
 const CartModal = () => {
-  const cartItems = false; //temporal
+  const cartItems = true; //temporal
 
   return (
     //if else statement to display the message
