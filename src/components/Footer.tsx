@@ -13,7 +13,7 @@ const Footer = () => {
           </Link>
           <p>Pueblo Nuevo Cordoba, Colombia</p>
           <span className="font-semibold">
-            contacto.lumiereaccesorios@gmail.com
+            example.lumiereaccesorios@gmail.com
           </span>
           <span className="font-semibold">+57 3145316874</span>
           <div className="flex gap-6">
