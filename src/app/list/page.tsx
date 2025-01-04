@@ -9,9 +9,9 @@ const ListPage = () => {
       <div className="rounded-3xl hidden bg-black p-4 sm:flex justify-between h-64">
         <div className="w-2/3 flex flex-col items-center justify-center gap-8">
           <h1 className="text-4xl font-semibold leading-[48px] text-white bg-black p-4">
-            Obtén 20% de descuento en tu siguiente compra
+            Obtén 10% de descuento en tu primera compra
           </h1>
-          <button className="rounded-3xl bg-salmon text-white w-max py-3 px-5 text-sm">
+          <button className="rounded-3xl bg-white text-black w-max py-3 px-5 text-sm">
             Comprar ahora
           </button>
         </div>
@@ -27,7 +27,7 @@ const ListPage = () => {
       {/* Filtro */}
       <Filter />
       {/* Productos */}
-      <h1 className="mt-12 text-xl font-semibold">Accesorios para ti!</h1>
+      <h1 className="mt-12 text-xl font-semibold">Resultados de busqueda</h1>
       <ProductList />
     </div>
   );
