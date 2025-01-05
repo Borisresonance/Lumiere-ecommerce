@@ -44,7 +44,7 @@ const ProductImage = () => {
             onClick={() => setIndex(i)}
           >
             <Image
-              className="object-cover rounded-md z-10 hover:opacity-0 transition-opacity easy duration-150 "
+              className="object-cover rounded-md hover:opacity-0 transition-opacity duration-150 "
               src={img.src}
               alt="collar image"
               fill
