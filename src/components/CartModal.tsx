@@ -6,10 +6,8 @@ const CartModal = () => {
 
   return (
     //if else statement to display the message
-    <div className="w-max absolute p-4 rouded-md shadow-[0_3px_10px_rgb(0,0,0,0.2) bg-white top-12 right-0 flex flex-col gap-6 z-20]">
+    <div className="w-max absolute p-4 rouded-md shadow-[0_3px_10px_rgb(0,0,0,0.2)] bg-white top-12 right-0 flex flex-col gap-6 z-20">
       {cartItems ? (
-        <div> No hay productos en el carrito</div>
-      ) : (
         <>
           <h2 className="text-xl">Carrito de compras</h2>
           {/* LIST */}
@@ -90,6 +88,8 @@ const CartModal = () => {
             </div>
           </div>
         </>
+      ) : (
+        <div> No hay productos en el carrito</div>
       )}
     </div>
   );
