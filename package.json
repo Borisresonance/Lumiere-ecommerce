@@ -11,14 +11,18 @@
   "dependencies": {
     "@fontsource/merriweather": "^5.1.0",
     "@fontsource/rouge-script": "^5.1.0",
+    "@shopify/storefront-api-client": "^1.0.3",
     "@types/graphql": "^14.2.3",
+    "clean": "^4.0.2",
     "graphql": "^16.10.0",
     "graphql-request": "^7.1.2",
+    "js-cookie": "^3.0.5",
     "next": "14.2.2",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
